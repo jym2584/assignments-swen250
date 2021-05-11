@@ -1,0 +1,24 @@
+
+Name: Jin Moon
+
+================================================================
+Start
+Estimated Time	05HH 00MM
+Plan:
+- get characters from standard input
+- put them into an array
+- pass them with pointers
+
+Complete
+Actual Time	07HH 00MM
+Observations:
+- Was having trouble trying to get from standard input initially and put them into the 2d array, but I was able to get a hand of that
+- Wrote most of my code in main, which I realie wasn't something I  was supposed to do
+- I also passed in a string array on read_data which was something that I also wasn't supposed to do
+- Was having bit of trouble with pointers
+- Makefile wasn't working correctly, but I was able to get it working now
+- I included a .c file on my main.c which caused the compiler to break
+- Code works! Also learned to include global variables on the header file
+
+
+================================================================

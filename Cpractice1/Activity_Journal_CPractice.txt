@@ -1,0 +1,31 @@
+SWEN-250 Activity Journal
+C (no pointers) Practice Practicum
+
+Name:
+
+================================================================
+skip_spaces
+Actual Time	MM
+Lessons learned, problems encountered, obstacles overcome, etc.
+
+================================================================
+find_next_word
+Actual Time	MM
+Lessons learned, problems encountered, obstacles overcome, etc.
+
+================================================================
+change_to_upper
+Actual Time	MM
+Lessons learned, problems encountered, obstacles overcome, etc.
+
+================================================================
+capitialize_all_words
+Actual Time	MM
+Lessons learned, problems encountered, obstacles overcome, etc.
+
+================================================================
+fix_bad_code
+Actual Time	MM
+Lessons learned, problems encountered, obstacles overcome, etc.
+
+================================================================

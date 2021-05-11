@@ -1,0 +1,45 @@
+SWEN-250 Activity Journal
+C pointers light Practice Practicum
+
+Name:
+
+================================================================
+Overall comments on:
+
+Amount of description in the cpractice2.c file:
+
+Amount of description in the webpage:
+
+General comments:
+
+================================================================
+get_pointer_at_position
+Actual Time	MM
+Lessons learned, problems encountered, obstacles overcome, etc.
+
+================================================================
+get_y_values
+Actual Time	MM
+Lessons learned, problems encountered, obstacles overcome, etc.
+
+================================================================
+get_sum_and_free_space
+Actual Time	MM
+Lessons learned, problems encountered, obstacles overcome, etc.
+
+================================================================
+same_array
+Actual Time	MM
+Lessons learned, problems encountered, obstacles overcome, etc.
+
+================================================================
+bool_flip_flop
+Actual Time	MM
+Lessons learned, problems encountered, obstacles overcome, etc.
+
+================================================================
+fix_bad_code
+Actual Time	MM
+Lessons learned, problems encountered, obstacles overcome, etc.
+
+================================================================

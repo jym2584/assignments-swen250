@@ -1,0 +1,23 @@
+SWEN-250 Activity Reflection
+
+Name: Jin Moon
+
+================================================================
+Part 2 (Part 1 not required)
+Estimated Time	00HH 30MM
+Plan:
+- Create a main
+- Ask for an input
+- Create a for loop that goes from i = 0 to that input
+- Create another for loop (j) that goes from 2 to input/2
+- if (i % j) == 0, print out that it's not a prime, otherwise it is a prime
+
+Complete
+Actual Time	01HH 00MM
+Observations:
+I was having a bit of trouble defining what a prime number was without coding it
+Initially I had my conditions layed out as i % 3, i % 5, i % 7 == 0 not being prime, but hard coded 2, 3, 5 and 7 to be always prime.
+To mitigate my last issue I added a boolean of is_prime that always starts out as true, but immediately breaks if the number is divisble by 0
+
+
+================================================================

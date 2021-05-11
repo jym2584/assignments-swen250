@@ -1,0 +1,98 @@
+SWEN-250 Project Activity Journal
+Home Security "C" Project - Part 1
+
+Name: Jin Moon
+
+===========  Stage 1  ==========================================
+Start
+Estimated Time	00HH 30MM
+Plan:
+- Read each line from standard input
+
+Complete
+Actual Time	00HH 30MM
+Observations:
+- Was initially confused about what each method does but I realize the passed in buffer
+is actually what each character is going to be filled into
+
+===========  Stage 2  ==========================================
+Start
+Estimated Time	01HH 00MM
+Plan:
+- Use something with rooms and events
+- Helper function to print the readings of each room
+
+Complete
+Actual Time	02HH 30MM
+Observations:
+- For about 30 minutes, I was looking around the given files to examine the structs
+I didn't really know what to do first but thinking incrementally helped
+For this case, I added an add_event function that adds the event on the room and such
+After that, I understand a little bit more on what to do
+- For my read_temp, read_co2 and read_intruder, I had to change the parameters to pass in 
+an event_t struct since it wouldn't make sense to keep them as they were originally
+        - This helped with being able to print each event of a room 
+- Then I added a print_reading which should print them in order now
+
+
+===========  Stage 3  ==========================================
+Start
+Estimated Time	00HH 00MM
+Plan:
+- Was already implemnted from Stage 2 by coincidence
+
+Complete
+Actual Time	00HH 00MM
+Observations:
+- Not really sure how, but I think I looked a step ahead with filling in 
+the room_t and event_t struct.
+The printing seems to work though
+
+
+===========  Stage 4  ==========================================
+Start
+Estimated Time	01HH 00MM
+Plan:
+- Change add_event so that it supports new events
+
+Complete
+Actual Time	00HH 45MM
+Observations:
+- When shifting elements, I made a little diagram that would help me implement the logic for
+adding things when they're already full. https://i.imgur.com/EMT9pW7.png
+The visualization helped me a lot in changing the function to use that implementation.
+
+
+===========  Stage 5  ==========================================
+Start
+Estimated Time	00HH 00MM
+Plan:
+- Was already implemnted from Stage 4
+
+Complete
+Actual Time	00HH 00MM
+Observations:
+- The printing seems to work
+
+===========  PROJECT PART 1 SUMMARY REFLECTION  =======================
+(Replace this text with a couple of paragraphs summarizing your
+experience with this project. What is too easy or too hard? What
+was the most challenging technical problem you faced? How
+did your estimated and actual time compare? Did your estimates
+improve as you advanced to later stages? Why or why not?)
+
+I think this project wasn't that bad, but challenging enough. Some of the technical issues
+that I had was the initial phase when starting out with the assignment. On first glance, I
+had no clue on what to do until I carefully looked at what each files do, I had to revisit
+structs and reading from standard input since the read_line got me the most confused. I think
+my estimate and actual times varied due to unfamiliarities on C but I was able to get it done.
+My estimate seemed to be a bit better for Stage 4 since all I had to do was add a conditional that
+shifts elements if the array is already filled. 
+
+I value this project a lot since I think it combined a little bit of everything that we did
+from the first week of the semester. I learned that it's important to look at everything before
+starting out on something since it can be overwhelming to immediately try to do something without
+a bit of context. The most difficult part for me was both the structs and reading from standard input
+but when I looked back at my code, I slowly start to recognize how to go about approaching each
+problem. 
+================================================================

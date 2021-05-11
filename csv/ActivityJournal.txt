@@ -1,0 +1,42 @@
+SWEN-250 Activity Reflection
+
+Name: Jin Moon
+
+================================================================
+Implement code to pass all unit tests
+
+Estimated Time	02HH 00MM
+Plan:
+- parse through each character and put them into the array
+- if newline or comma is found, split that into a single array
+- return the char that the array was split on
+- iterate through get_field to grab a 2d array on each row, one being the header
+- call get_field several more times to get the data points and 2d array
+- print the arrays 
+
+Complete
+Actual Time	10HH 00MM
+Observations:
+- I was having trouble understanding how to parse through a file from standard input
+- I learned that through my mistake in word count since I was very confused
+- I've spent hours trying to debug why my program was hanging since everything else printed but it did not
+print to the actual.out file just to find that it worked when I returned ch instead of 0 on my get_field function
+- It was very hard but debugging helped, a lot haha.
+
+
+================================================================
+Test correct operation from the command line
+
+Estimated Time	02HH 00MM
+Plan:
+- Test to make sure that everything prints on the command line
+
+Complete
+Actual Time	10HH 00MM
+Observations:
+- At first I was confused on how to print the lines since I didn't know how to increment on a function
+- Then I realize I only had to do a for loop
+- My program was hanging and so I was also confused, which was mitigated through debugging
+
+
+================================================================

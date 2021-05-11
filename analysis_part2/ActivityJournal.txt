@@ -1,0 +1,174 @@
+SWEN-250 Document Analysis Journal
+
+Implement these functions in the order below.
+
+Your name: Jin Moon
+
+================================================================
+process_word
+Start
+Estimated Time	01HH 00MM
+Plan:
+- if the word has been found
+    - add the word count
+- add the word to the list if starting from empty
+
+Complete
+Actual Time	00HH 30MM
+Observations:
+- initially had trouble with getting linked list to work but i did
+- was having a bit of trouble understanding the equality of the functions, forgot what my functions returned if true
+
+
+================================================================
+get_first_word
+Start
+Estimated Time	00HH 30MM
+Plan:
+- If either the list or head is null
+    return entry
+- make current the head 
+- return the word of the head
+
+Complete
+Actual Time	00HH 30MM
+Observations:
+- I keep on getting this:
+analysis.c:66:15: warning: variable 'current' set but not used [-Wunused-but-set-variable]
+  struct node* current = p_list -> p_current;
+               ^~~~~~~
+    Not sure what this might soon imply but all my tests are currently passing so far
+
+-----------
+Tue, Apr 6:
+Actual time for implementation: 00hh 30mm
+- since all my tests were passing, i didn't add them to the entry 
+- I was able to do that now
+
+================================================================
+get_next_word
+Start
+Estimated Time	00HH 30MM
+Plan:
+- If either the list or head is null, or there is only one word on the linked list
+    return entry
+- otherwise make current the next word 
+- return the word of the new current
+
+Complete
+Actual Time	00HH 20MM
+Observations:
+- My current node variable declaration keeps on failing tests 20 and 21, so I did it without the declaration
+    Test # 20 failed: 20 get next word which should be "zed" with a count of 1 but got middle 2.
+    Test # 21 failed: 21 get next word which fail due to the end of the list with a count of 0 but got 2.
+-----------
+Tue, Apr 6:
+Actual time for implementation: 00hh 10mm
+- since all my tests were passing, i didn't add them to the entry 
+- I was able to do that now
+
+================================================================
+get_last_word
+Start
+Estimated Time	00HH 30MM
+Plan:
+- If either the list or head is null
+    return entry
+- otherwise make current the tail
+- return the word of the new current
+
+Complete
+Actual Time	00HH 25MM
+Observations:
+- my current node variable declaration works on this one, but not on the others
+- I realize that I can copy what I did for next_word and change it to setting the current to be the tail instead of the head 
+
+-----------
+Tue, Apr 6:
+Actual time for implementation: 00hh 10mm
+- since all my tests were passing, i didn't add them to the entry 
+- I was able to do that now
+
+================================================================
+get_prev_word
+Start
+Estimated Time	00HH 30MM
+Plan:
+- If either the list or head is null, or there is only one word on the linked list
+    return entry
+- otherwise make current the previous node of the current
+- return the word of the new current
+
+Complete
+Actual Time	00HH 20MM
+Observations:
+- my current node declaration does not work since word count kept on failing, but I was able
+to get it passing without it
+
+-----------
+Tue, Apr 6:
+Actual time for implementation: 00hh 10mm
+- since all my tests were passing, i didn't add them to the entry 
+- I was able to do that now
+
+================================================================
+read_file through test 56
+Start
+Estimated Time	02HH 00MM
+Plan:
+- open file
+- iterate through each character
+    - convert to lowercase if applicable
+    - if character is not alpha, assume that it is a word
+    - add to word count
+
+Complete
+Actual Time	01HH 30MM
+Observations:
+- was having a bit of trouble iterating through each character until i checked the cwordcount assignment that I did that I used fget and fopen before
+- had bit of trouble with array basics, forgot about nul char 
+
+
+================================================================
+read_file MLK_dream_excerpt only
+Start
+Estimated Time	HH MM
+Plan:
+
+Complete
+Actual Time	HH MM
+Observations:
+- implementation working as expected from last test
+
+
+================================================================
+write_unique_word_list_to_csv_file
+Start
+Estimated Time	01HH 00MM
+Plan:
+- open file
+- iterate through node
+    - add word (string) and word_count (int) to csv file if i can
+
+Complete
+Actual Time	01HH 00MM
+Observations:
+- was bit confused on how to create a csv file
+    - noticed it can create csv file if i added a comma
+    - had bit of toruble iterating through the linked list, but i checked back to the linked_list_functions for a refresher
+
+
+================================================================
+Add four unit tests to the unit_tests_student.c file
+Start
+Estimated Time	00HH 30MM
+Plan:
+- add the tests as intended
+
+Complete
+Actual Time	00HH 30MM
+Observations:
+- had bit of trouble with the second test but i realize i didn't call find_word on have
+
+
+================================================================

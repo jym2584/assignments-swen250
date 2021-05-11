@@ -1,0 +1,37 @@
+SWEN-250 Activity Reflection
+
+Name: Jin Moon
+
+================================================================
+Part 1
+Estimated Time	00HH 30MM
+Plan:
+Create a while loop that ends with an EOD
+Create an input that takes in strings
+Echo it each time you press enter
+
+Complete
+Actual Time	00HH 60MM
+Observations:
+I was having trouble trying to get the scanf, but I was able to get some input by looking
+at the course slides.
+
+
+================================================================
+Part 2
+Estimated Time	00HH 30MM
+Plan:
+- Put an if statement on the while conditional
+	- if the length of the line is greater than the int longest_line then replace that integer with the larger one
+	- copy the line
+- after the while conditional, print the longest line
+
+Complete
+Actual Time	01HH 10MM
+Observations:
+- Was having trouble trying to add a loop to iterate through each character
+- I looked up the slides for some clarification on getchar() and copying the string
+- The unit test was ending the program before I was able to test my line function so I put my code above it
+- I placed my code back under the unit test since I wasn't sure if it should've stayed like that
+
+================================================================

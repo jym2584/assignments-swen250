@@ -1,0 +1,57 @@
+SWEN-250 Activity Reflection
+
+Name: Jin Moon
+
+================================================================
+Start Part 1
+Estimated Time	00hh 30mm
+Plan:
+- print "Farenheit-Celcius"
+- use for loop from int i = 0; i < 300; i += 20 to print out the
+  temp conversion: C = (5/9)(i-32)
+- print out the conversion using printf
+- return 0;
+
+Complete
+Actual Time	01hh 00mm
+Tue, Feb 02 actual time: 01hh 30mm
+
+Observations:
+- at first I was using syntax from java since they seemed similar but I realize along the way
+when trying to compile my code that int i can't be used inside of the for loop
+I noticed that I have to declare int i first and then use i = 0 inside of the for loop instead.
+- my temp conversion was also printing out errors since I didn't realize i have to do (5/9)*(i-32) since I did it without *
+- I was also a bit confused about the printf so I went over the lecture notes to clarify some of the confusions that I had from
+the java syntax
+
+Tue, Feb 02: made formatting corrections, took a while for me to notice
+
+================================================================
+Start Part 2
+Estimated Time	01hh 00mm
+Plan:
+- replace int to float
+
+Complete
+Actual Time	00hh 20mm
+Tue, Feb 02 actual time: 01hh 00mm
+Observations:
+- I converted the int to float, but I also needed to use %.1f which took a bit of time to figure out
+
+Tue, Feb 02:
+	I didn't realize the format as well, so it took me a while to format the right side as well.
+I looked at stack overflow for a similar problem and I was able to use that to format my code
+
+================================================================
+
+-----------------
+old
+-----------------
+Estimated time: 30 minutes
+
+chart1: In function ‘main’:
+chart1.c:20:20: error: called object is not a function or function pointer
+         int temp = (5/9)(i - 32);
+
+chart1.c: In function 'main':
+chart1.c:9: error: 'for' loop initial declaration used outside C99 mode

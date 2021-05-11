@@ -1,0 +1,73 @@
+SWEN-250 Project Activity Journal
+Home Security "C" Project - Part 2
+
+Name: Jin Moon
+
+===========  Level 1  ==========================================
+Start
+Estimated Time	02HH 00MM
+Plan:
+- Try to convert everything from arrays to linked lists
+
+Complete
+Actual Time	06HH 00MM
+Observations:
+- I had a lot of trouble implmeneting these methods because it took a lot of time 
+to understand linked lists for me personally. When first looking at the skeleton code I felt
+overwhelmed on where to start but I eventually was able to get it with a much more clear mind the 
+next day. 
+- I encountered a few segmentation faults and core dumps but I think that was due to my lack of
+understanding of linked lists 
+- Sometimes the function would ask for -> instead of . and vice versa, and I was a bit confused by that as well
+
+
+
+===========  Level 2  ==========================================
+Start
+Estimated Time	02HH 00MM
+Plan:
+- Try to convert everything from arrays to linked lists
+
+Complete
+Actual Time	06HH 00MM
+Observations:
+- During my level one implementation, I thought a few ahead for every function. I think this was a bad idea
+and probably contributed to how long it took me to complete level one. 
+
+
+===========  Level 3  ==========================================
+Start
+Estimated Time	03HH 00MM
+Plan:
+- Skip the events we don't want to get rid of
+- After we skip the events that we don't want to trim, trim the rest of the events from the linked list
+https://i.imgur.com/pxtVVqs.png
+
+Complete
+Actual Time	05HH 00MM
+Observations:
+- This was more difficult than I expected, I don't know why I was having issues with this but I kept on 
+getting core dumps and segmentation faults. Upon doing this step, I always seemed to be one off, which was a bit
+difficult to pinpoint. I tried using current and next and current and previous, but the ladder seems to work with the caveot that 
+it always trims one less which I wasn't able to figure out. However I had to make a few adjustments in addition to the case of trimming 
+up to length 0, which I made it an edge case afterwards. 
+
+
+===========  PROJECT PART 1 SUMMARY REFLECTION  =======================
+(Replace this text with a couple of paragraphs summarizing your
+experience with this project. What is too easy or too hard? What
+was the most challenging technical problem you faced? How
+did your estimated and actual time compare? Did your estimates
+improve as you advanced to later stages? Why or why not?)
+===============================================================
+What was difficult for me was to convert everything to a linkedlist initially. I had the same experience as freezing up
+from project 2 part 1 where I stared at the skeleton code not knowing what to do, but after a lot of complentation I was able 
+to get something started. I think the most challenging problem was the trimming part since I've had a lot of difficulties with 
+the logic. Even though I sketched out what I wanted to do for the trimming, translating it into code didn't seem to work. 
+My estimates did not improve because it took me a lot of time to figure out nodes and linked lists. Also another factor would be that 
+I did this assignment last minute instead of ahead of time due to a lot of work that was on my plate for my other courses. I thought it 
+wouldn't be extrodinarily difficult so I put the project into low priority but I was mistakened and I thought it was a good lesson to learn 
+to not get stuck on the assignment the day (and the day before) it's due. All and all, I think I've learned a lot from this project and what 
+I need to do to prepare for the final.
+
+I've had help with understanding the logic of Level 3 from Huan Huynh when I kept on getting core dumps from freeing the events

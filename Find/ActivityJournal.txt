@@ -1,0 +1,55 @@
+SWEN-250 Activity Reflection
+
+Name: Jin Moon
+
+================================================================
+Start
+Estimated Time	02HH 00MM
+Plan:
+- find_ch_index
+    Iterate through each string until NUL character is found
+    if string[i] == ch, return the index
+
+- find_ch_ptr
+    deference the string while doing a loop with end condition NUL character
+    if deferenced string == ch, then return the string
+    go to the next string
+
+- find_any_index
+    Do a double for loop for string (i) and stop (j)
+    if string[i] == stop[j] then return the index of i
+
+- find_any_ptr
+    Do a double for loop for string and stop
+    if string == any characters of stop then return the char pointer of string 
+
+- find_substr
+    Do a double for loop for string and stop
+    if string == substr then return the first character of the string
+    For substr, I might write code to find the length of it
+    if the count of the substr == length of it, then we can return the first character of the string
+
+
+Complete
+Actual Time	HH MM
+Observations:
+
+**find_ch_index**
+- Encountered a problem with looping find_ch_index but I was able to figure that out
+
+**find_ch_ptr**
+- Was having a bit of trouble with iterating through find_ch_ptr but I was able to
+    figure it out by looking through the lecture, realizing the asterik dereferences the pointer
+
+**find_any_ptr**
+- For find_any_ptr, I was having trouble iterating through the next char in string
+    - Intially I used while(stop != '\0') which the string was not iterating through the next character
+        I was confused about this until I created a temp char pointer for stop and iterated through that instead
+        I think this was due to because since I was iterating through stop and it found a NUL character which won't go back
+        to the first character of stop 
+        So I thought about creating a temp char pointer of stop so that it starts from the beginning everytime the loop goes to 
+        the next character of the string.
+    
+
+
+================================================================

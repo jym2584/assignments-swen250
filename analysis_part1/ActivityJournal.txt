@@ -1,0 +1,106 @@
+SWEN-250 Document Analysis Journal
+
+Implement these functions in the order below.
+
+Your name: Jin Moon
+
+================================================================
+create_node
+Start
+Estimated Time	00HH 30MM
+Plan:
+- Create an empty node
+- Allocate space for the word + the empty string
+- Use strcpy to add the word onto the unique_word struct
+- Add the word count up to 1
+- Set previous and next to null because it's a new node
+
+Complete
+Actual Time	01HH 00MM
+Observations:
+- Had a little trouble with structs and the general concepts of Linked Lists
+- Had a little trouble allocating space as well
+- Was able to refer the class code from both 250 and my GCIS 124 course for Linked Lists
+
+
+================================================================
+add_node_at_head
+Start
+Estimated Time	00HH 15MM
+Plan:
+- If the Head of the list is null then make the head and tail of the list the new node
+- Make p_current the new node
+
+Complete
+Actual Time	00HH 30MM
+Observations:
+- It took me a little while to try to implement this since I was a bit unfamiliar with structs still but was able to get it
+
+
+================================================================
+clear_linked_list
+Start
+Estimated Time	01HH 00MM
+Plan:
+- While the head of the list isn't null 
+- Set the head to be the next (popping)
+- free the old head 
+- after everything has been popped, set tail and current to be NULL 
+
+
+Complete
+Actual Time	01HH 00MM
+Actual Time for clearing node and word 02HH 00MM
+Observations:
+- Encountered problems with failing all the tests for two nodes after implementing clear_linked_list, so I went back to properly
+attach the notes together
+- I had a bit of issues trying to free the node and unique word of the linked list as well
+
+
+================================================================
+add_node_after_current
+Start
+Estimated Time	01HH 00MM
+Plan:
+- If there is nothing on the linked list, word or the word is empty, return 0
+- If the current value linked list is empty
+    - Add a new node
+    - Otherwise if there is nothing on the tail
+        - Add the new node to the tail
+        - Make the current and previous to be the tail 
+        - Make the tail of the next node to be the new node 
+    - Otherwise
+        - Make the next point to the current next of the list 
+        - Make the node's previous to be the current of the list 
+        - Make the next's previous to be the new node 
+        - Make the head the same as the current 
+- Make the new node the current 
+
+Complete
+Actual Time	01HH 00MM
+Observations:
+- Was having trouble with passing some of my tests 
+- For some of the methods I had them in the wrong order in which they are supposed to be implemented
+- I got some segmentation faults because of some of my logic 
+
+
+================================================================
+find_word
+Start
+Estimated Time	01HH 00MM
+Plan:
+- Traverse through the head of the lists 
+    - Compare the word to the head
+    If they aren't the same, traverse through the list
+        If they are, then we found the word!
+
+Complete
+Actual Time	00HH 30MM
+Observations:
+- initially encountered some issues with using compareto but I sort of made sense with it
+when I remember using something similar to it in Java 
+- I flipped the conditions or setting the current to the incorrect position
+- I forgot to make the current value of the list to be the tail 
+
+
+================================================================

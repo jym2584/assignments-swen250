@@ -1,0 +1,25 @@
+SWEN-250 Activity Reflection
+
+Name: Jin Moon
+
+================================================================
+Start
+Estimated Time	01HH 00MM (5:00 PM EST)
+Plan:
+- implement passing in file through command prompt
+- create a while line != EOL loop
+- create a conditional that ignores the whitespace
+- create a for loop that iterates through each character in the line, maybe add formatting for word too
+- count up characters and words, as well as other things i may need to do
+
+Complete
+Actual Time	08HH 00MM   (7:14 PM EST)
+Observations:
+- Initially I was iterating over whitespace and \n for the word count which gave 68.
+It counted both the empty \n with no words and the double space on th 11th line.
+It  took me a long time to get it but I was able to search for the problem and resolve it.
+- It took me a lot more time than I expected because I was so used to the java syntax, so I had a lot of problem there as well
+- The documentation and code examples on the C website was really helpful as well
+
+
+================================================================

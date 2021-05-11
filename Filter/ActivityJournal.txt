@@ -1,0 +1,53 @@
+SWEN-250 Activity Reflection
+
+Name: Jin Moon
+
+================================================================
+Start
+Estimated Time	02HH 00MM
+Plan:
+- filter_ch_index
+    Iterate over the string
+        If the character doesn't contain ch
+            Add it to the result index
+
+- filter_ch_ptr
+    Iterate over the string
+        If the character string doesn't contain ch
+            Add it to the copy
+
+- filter_any_index
+    Iterate over the string
+        Iterate over the string again
+            if the string contains any of the characters in remove
+                Don't add it
+            Add everything else
+
+- filter_any_ptr
+    Iterate over the string
+        if the string doesn't include any of the characters in remove
+            Copy everything over
+
+- filter_substr
+    Iterate over the string
+        If the character of the string contains the substring
+            Skip over the string
+        Add everything else
+        
+Complete
+Actual Time	05HH 00MM
+Observations:
+- filter_ch_ptr
+    Was initially having trouble with appending string to copy, but then I realize it was doing that already
+    I didn't know you can reuse p_copy since it is just a nul terminator now
+    was having trouble freeing p, but was able to understand bit more of that in office hours
+
+- filter_any_ptr
+    Spent a lot of time trying to implement the function until I noticed that you can use the helper function 
+
+- filter_substr
+    Spent a lot of time trying to implement the function until I noticed that you can use the helper function 
+    Spent the most time on this
+
+
+================================================================
